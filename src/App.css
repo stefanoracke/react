@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
 }
 
 .App-logo {
@@ -11,6 +16,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
@@ -35,4 +44,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  background-color: #fff;
+  width: 400px;
+  box-shadow: 0 0 2px lightgray;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.text-success{
+  color: rgb(60, 177, 56);
+}
+
+.text-danger{
+  color: #c41b1bcd;
 }
